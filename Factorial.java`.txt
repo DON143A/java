@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Factorial {
+    public static long factorial(int n) {
+        if (n < 0) return -1;
+        long fact = 1;
+        for (int i = 2; i <= n; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter N value: ");
+        int N = sc.nextInt();
+
+        if (N < 0) {
+            System.out.println("Factorial of negative number is undefined.");
+        } else {
+            long result = factorial(N);
+            System.out.println(N + " Factorial = " + result);
+        }
+    }
+}
