@@ -13,7 +13,6 @@ public class MostCommonWord {
         Set<String> bannedWords = new HashSet<>(Arrays.asList(banned));
         Map<String, Integer> wordCount = new HashMap<>();
 
-        // Replace punctuations with spaces and convert to lowercase
         String normalizedStr = paragraph.replaceAll("[^a-zA-Z0-9]", " ").toLowerCase();
         String[] words = normalizedStr.split("\\s+");
 
