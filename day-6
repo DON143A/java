@@ -18,6 +18,8 @@ public class MaxSubArraySum {
         return maxSum;
     }
 }
+
+
 //52.Multiplication Table
 import java.util.Scanner;
 
@@ -49,6 +51,9 @@ public class Main {
         }
     }
 }
+
+
+
 
 //54.Selection and Iteration Statements with Do-While Loop
 import java.util.Scanner;
@@ -91,6 +96,8 @@ public class Main {
 
 
 
+
+
 //55.Generics Class for Sorting
 import java.util.Arrays;
 
@@ -114,6 +121,9 @@ class GenClass<T extends Comparable<T>> {
     }
 }
 
+
+
+
 public class Main {
     public static void main(String[] args) {
         Integer[] intArray = {5, 2, 8, 1, 3};
@@ -127,6 +137,9 @@ public class Main {
         genStr.print();
     }
 }
+
+
+
 
 //56.Overloaded Function with Different Number of Arguments
 public class Overload {
@@ -174,6 +187,8 @@ public class Main {
 
 
 
+
+
 //58.Read Email and Password from Excel Using Apache POI
 import org.apache.poi.ss.usermodel.*;
 
@@ -206,6 +221,8 @@ public class Main {
 }
 
 
+
+
 //59.Sort Values Using HashMap
 import java.util.*;
 
@@ -224,6 +241,8 @@ public class Main {
         }
     }
 }
+
+
 
 
 //60.Find Distinct Characters and Their Count in a String
@@ -247,6 +266,8 @@ public class Main {
         }
     }
 }
+
+
 
 //61.Print Unique Characters in a String
 import java.util.HashMap;
